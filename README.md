@@ -25,7 +25,7 @@ To view or edit this website locally:
 Clone the repository:
 bash
 Copy code
-git clone https://github.com/your-username/pascal-portfolio.git
+git clone https://github.com/pascal-portfolio.git
 Open the index.html file in your browser.
 Contact
 For inquiries or collaboration, reach out via:
