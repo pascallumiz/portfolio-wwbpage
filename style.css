@@ -34,7 +34,7 @@ font-size: 2.5rem;
 color: #f5a623;
 font-weight: bold;
 cursor: pointer;
-animation: glowing-logo 5s infinite alternate; /* Continuous animation */
+animation: glowing-logo 5s infinite alternate; 
 }
 
 @keyframes glowing-logo {
@@ -118,7 +118,6 @@ width: 120%;
 opacity: 0.15;
 }
 
-/* Mobile Menu (Optional for Responsive) */
 @media (max-width: 768px) {
 .nav-links {
     display: none;
@@ -132,7 +131,6 @@ opacity: 0.15;
     background-color: rgba(34, 34, 34, 1);
 }
 }
-
 
 
 #hero {
@@ -211,7 +209,6 @@ filter: grayscale(0%);
 box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.8);
 }
 
-/* Animation Effects */
 @keyframes glow {
 0% { text-shadow: 0 0 10px rgba(255, 255, 255, 0.5); }
 50% { text-shadow: 0 0 20px rgba(255, 255, 255, 1); }
@@ -224,7 +221,6 @@ box-shadow: 0px 0px 25px rgba(255, 255, 255, 0.8);
 100% { background-position: 0% 50%; }
 }
 
-/* Continuous Background Animation */
 #hero::before {
 content: '';
 position: absolute;
@@ -280,14 +276,12 @@ section {
   align-items: center;
 }
 
-
 h2 {
   font-size: 2.5rem;
   color: #f5a623; 
   text-align: center;
   margin-bottom: 2rem;
 }
-
 
 #about-me {
 background-color: #1c1c1c;
@@ -438,8 +432,6 @@ to {
 }
 }
 
-
-/* Hobby section container */
 #hobbies-section {
   padding: 60px 0;
   background-color: #111;
@@ -483,7 +475,6 @@ to {
   50% { width: 150px; }
 }
 
-/* Hobbies container */
 .hobbies-container {
   display: flex;
   justify-content: center;
@@ -538,7 +529,6 @@ to {
   filter: blur(30px);
 }
 
-/* 3D hover effect */
 .hobby-box:hover {
   transform: rotateY(360deg) scale(1.2);
   box-shadow: 0 20px 50px rgba(249, 99, 50, 0.8), inset 0 0 20px rgba(249, 99, 50, 0.3);
@@ -555,7 +545,6 @@ to {
   transform: translateZ(20px);
 }
 
-/* Adding dynamic neon hover border effect */
 .hobby-box:after {
   content: '';
   position: absolute;
@@ -576,7 +565,6 @@ to {
   border-color: rgba(249, 99, 50, 0.8);
 }
 
-/* Advanced text glow animation */
 .hobby-box:hover p {
   animation: text-glow 1.5s ease-in-out infinite;
 }
@@ -586,7 +574,6 @@ to {
   50% { text-shadow: 0 0 20px #ffae33; }
 }
 
-/* Responsive for smaller screens */
 @media (max-width: 768px) {
   .hobbies-container {
     flex-direction: column;
@@ -600,9 +587,6 @@ to {
     font-size: 30px;
   }
 }
-
-
-
 
 .skills h2 {
 font-family: 'Poppins', sans-serif;
@@ -636,7 +620,6 @@ flex-wrap: wrap;
 justify-content: center;
 gap: 20px;
 }
-
 
 .skill-item {
 background-color: #222;
@@ -764,10 +747,6 @@ margin: 0;
 .language.java i { color: #5382a1; }
 .language.nodejs i { color: #68a063; }
 
-
-
-
-/* Start of the scoped section */
 #projects-section {
   font-family: 'Roboto', sans-serif;
   background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
@@ -783,7 +762,6 @@ margin: 0;
   to { opacity: 1; }
 }
 
-/* Subtle background effect */
 #projects-section::before {
   content: '';
   position: absolute;
@@ -798,14 +776,11 @@ margin: 0;
 }
 
 
-
-
-/* Start of the scoped section */
 #projects-section {
   font-family: 'Roboto', sans-serif;
-  background: #0d0d0d;  /* Dark Bash Black */
+  background: #0d0d0d;  
   padding: 50px 0;
-  color: #e6e6e6; /* Subtle gray to contrast black */
+  color: #e6e6e6; 
   position: relative;
   overflow: hidden;
 }
@@ -959,7 +934,6 @@ margin: 0;
   }
 }
 
-/* Responsive */
 @media (max-width: 768px) {
   #projects-section h1 {
     font-size: 2.8rem;
@@ -973,20 +947,6 @@ margin: 0;
     font-size: 0.85rem;
   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 .contact-bg {
@@ -1142,7 +1102,7 @@ background-color: #ffdd55;
 transform: translateY(-5px);
 }
 
-/* Floating Animation */
+
 @keyframes float {
 0%, 100% { transform: translateY(0); }
 50% { transform: translateY(-10px); }
@@ -1187,7 +1147,6 @@ margin-bottom: 30px;
 font-family: 'Poppins', sans-serif;
 }
 
-/* Services Container - 3x3 Grid */
 .services-container {
 display: grid;
 grid-template-columns: 1fr 1fr 1fr;
@@ -1199,7 +1158,7 @@ margin: 0 auto;
 max-width: 1100px; 
 }
 
-/* Individual Service Item */
+
 .service-item {
 background: rgba(48, 48, 48, 0.9);
 padding: 20px;
@@ -1208,7 +1167,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
 text-align: center;
 cursor: pointer;
-width: 85%; /* Reduces the size of the boxes */
+width: 85%; 
 }
 
 .service-item:hover {
@@ -1216,7 +1175,6 @@ transform: translateY(-10px);
 box-shadow: 0 10px 30px rgba(243, 156, 18, 0.8);
 }
 
-/* Service Icon */
 .service-icon {
 font-size: 2em;
 margin-bottom: 15px;
@@ -1284,9 +1242,6 @@ text-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 30px rgba(255, 0, 0, 0.8);
 
 
 
-/* Education and Experience Section Styles */
-
-
 /* Timeline Section Wrapper */
 .timeline-section {
   width: 90%;
@@ -1321,7 +1276,6 @@ text-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 30px rgba(255, 0, 0, 0.8);
   animation: growLine 2s ease-out;
 }
 
-/* Timeline Items - Refined Layout */
 .timeline {
   display: flex;
   flex-direction: column;
@@ -1350,7 +1304,6 @@ text-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 30px rgba(255, 0, 0, 0.8);
   background: linear-gradient(145deg, #2e2e2e, #292929);
 }
 
-/* Dot Styles for Timeline - Enhanced */
 .timeline-dot {
   position: absolute;
   top: 30px;
@@ -1369,7 +1322,7 @@ text-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 30px rgba(255, 0, 0, 0.8);
   box-shadow: 0 0 20px rgba(244, 67, 54, 1), 0 0 40px rgba(244, 67, 54, 0.6);
 }
 
-/* Timeline Content - Enhanced for Clarity */
+
 .timeline-content {
   padding-left: 80px;
   position: relative;
@@ -1397,7 +1350,6 @@ text-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 30px rgba(255, 0, 0, 0.8);
   transition: color 0.3s ease;
 }
 
-/* Hover Effect for Text - Enhanced */
 .timeline-item:hover p {
   color: #ffffff;
 }
@@ -1454,8 +1406,6 @@ text-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 30px rgba(255, 0, 0, 0.8);
   }
 }
 
-
-/* Isolated footer styling to prevent conflicts */
 #discover-pascal-footer {
   background-color: #111;
   color: #fff;
@@ -1638,7 +1588,6 @@ text-shadow: 0px 0px 15px rgba(255, 0, 0, 1), 0px 0px 30px rgba(255, 0, 0, 0.8);
   color: #f96332;
 }
 
-/* Advanced Animation */
 @keyframes icon-glow {
   0% { transform: scale(1); color: #f96332; }
   50% { transform: scale(1.1); color: #ffeb3b; }
